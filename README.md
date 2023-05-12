@@ -31,4 +31,4 @@ The user can choose what type of camping trip they are going on and get a compre
 - As a user I want to remove or change items in a list to suit my needs
 
 ## Wireframe
-![Wireframe1](https://i.imgur.com/RHm3fsC.png)
+![Wireframe1](https://i.imgur.com/RHm3fsC.png) 
