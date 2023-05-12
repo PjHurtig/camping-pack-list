@@ -29,3 +29,6 @@ The user can choose what type of camping trip they are going on and get a compre
 - As a user I want to be able to choose what type of trip I am going on and get help with my packing
 - As a user I want to create a pack-list from scratch if I want to
 - As a user I want to remove or change items in a list to suit my needs
+
+## Wireframe
+![Wireframe1](https://i.imgur.com/RHm3fsC.png)
