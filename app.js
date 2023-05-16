@@ -6,8 +6,11 @@ let inputGear = document.getElementById("input-gear");
 addBtn.addEventListener("click", function () {
     let gear = document.createElement("div");
     userList.appendChild(gear);
+
     // add paragraph with gear item text
     let gearText = document.createElement("p");
     gearText.innerText = inputGear.value;
     gear.appendChild(gearText);
+
+    inputGear.value = "";
 });
