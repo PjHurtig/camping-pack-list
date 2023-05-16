@@ -17,6 +17,11 @@ addBtn.addEventListener("click", function () {
     deleteBtn.textContent = "delete";
     gear.appendChild(deleteBtn);
 
+    // delete button when clicked removes gear item from user list
+    deleteBtn.addEventListener("click", function () {
+        userList.removeChild(gear);
+    });
+
 
     // remove text from input after adding
     inputGear.value = "";
