@@ -1,6 +1,6 @@
 let addBtn = document.getElementById("add-btn");
-let userList = document.getElementsById("user-list");
-let inputGear = document.getElementsById("input-gear");
+let userList = document.getElementById("user-list");
+let inputGear = document.getElementById("input-gear");
 
 // add button to add gear to user list from text input
 addBtn.addEventListener("click", function () {
