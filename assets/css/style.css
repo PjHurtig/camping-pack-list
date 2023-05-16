@@ -29,9 +29,18 @@ body {
 #user-list {
     border: 1px green;
     background: rgba(0, 128, 0, 0.5);
+    display: flex;
+    flex-direction: column-reverse;
 }
 
 #user-list div {
     border: 1px solid yellow;
     background: rgba(255, 255, 0, 0.5);
+    display: flex;
+    justify-content: flex-end;
+}
+
+#user-list div>p {
+    color: red;
+    text-align: left;
 }
