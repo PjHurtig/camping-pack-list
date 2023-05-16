@@ -22,6 +22,11 @@ addBtn.addEventListener("click", function () {
         userList.removeChild(gear);
     });
 
+    // adds edit button to gear in user list
+    let editBtn = document.createElement("button");
+    editBtn.textContent = "edit";
+    gear.appendChild(editBtn);
+
 
     // remove text from input after adding
     inputGear.value = "";
