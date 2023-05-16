@@ -32,6 +32,11 @@ addBtn.addEventListener("click", function () {
         gearText.contentEditable = true;
     });
 
+    // add save button to save changes made with edit button
+    let saveBtn = document.createElement("button");
+    saveBtn.textContent = "save";
+    gear.appendChild(saveBtn);
+
     // remove text from input after adding
     inputGear.value = "";
 });
