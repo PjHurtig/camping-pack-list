@@ -30,3 +30,8 @@ body {
     border: 1px green;
     background: rgba(0, 128, 0, 0.5);
 }
+
+.user-list div {
+    border: 1px solid yellow;
+    background: rgba(255, 255, 0, 0.5);
+}
