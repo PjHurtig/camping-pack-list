@@ -12,5 +12,7 @@ addBtn.addEventListener("click", function () {
     gearText.innerText = inputGear.value;
     gear.appendChild(gearText);
 
+    
+    // remove text from input after adding
     inputGear.value = "";
 });
