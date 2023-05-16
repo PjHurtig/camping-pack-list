@@ -17,7 +17,7 @@ addBtn.addEventListener("click", function () {
     deleteBtn.textContent = "delete";
     gear.appendChild(deleteBtn);
 
-    // delete button when clicked removes gear item from user list
+    // delete button when clicked, removes gear item from user list
     deleteBtn.addEventListener("click", function () {
         userList.removeChild(gear);
     });
@@ -27,6 +27,10 @@ addBtn.addEventListener("click", function () {
     editBtn.textContent = "edit";
     gear.appendChild(editBtn);
 
+    // edit button when clicked, makes gear item text editable
+    editBtn.addEventListener("click", function () {
+        gearText.contentEditable = true;
+    });
 
     // remove text from input after adding
     inputGear.value = "";
