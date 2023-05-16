@@ -2,7 +2,7 @@ let addBtn = document.getElementById("add-btn");
 let userList = document.getElementById("user-list");
 let inputGear = document.getElementById("input-gear");
 
-// adds button to add gear to user list from text input
+// adds gear to user list from text input field when "add" button is clicked
 addBtn.addEventListener("click", function () {
     let gear = document.createElement("div");
     userList.appendChild(gear);
@@ -12,36 +12,36 @@ addBtn.addEventListener("click", function () {
     gearText.innerText = inputGear.value;
     gear.appendChild(gearText);
 
-    // adds delete button to gear in user list
+    // adds delete-button to gear in user list
     let deleteBtn = document.createElement("button");
     deleteBtn.textContent = "delete";
     gear.appendChild(deleteBtn);
 
-    // delete button when clicked, removes gear item from user list
+    // delete-button: when clicked, removes gear item from user list
     deleteBtn.addEventListener("click", function () {
         userList.removeChild(gear);
     });
 
-    // adds edit button to gear in user list
+    // adds edit-button to gear in user list
     let editBtn = document.createElement("button");
     editBtn.textContent = "edit";
     gear.appendChild(editBtn);
 
-    // edit button when clicked, makes gear item text editable
+    // edit-button: when clicked, makes gear item text editable
     editBtn.addEventListener("click", function () {
         gearText.contentEditable = true;
     });
 
-    // add save button to save changes made with edit button
+    // adds save-button to save changes made with edit button
     let saveBtn = document.createElement("button");
     saveBtn.textContent = "save";
     gear.appendChild(saveBtn);
 
-    // save button when clicked maked gear text not editable
+    // save-button: when clicked makes gear text not editable
     saveBtn.addEventListener("click", function () {
         gearText.contentEditable = false;
     });
 
-    // remove text from input after adding
+    // remove text from input field after adding
     inputGear.value = "";
 });
