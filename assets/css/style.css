@@ -53,10 +53,12 @@ h3 {
     font-size: 1rem;
 }
 
+/* input button */
 #add-btn {
     padding: 0.1rem;
 }
 
+/* where users gear list is */
 #user-list {
     display: flex;
     flex-direction: column-reverse;

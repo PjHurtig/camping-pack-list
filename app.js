@@ -12,6 +12,10 @@ addBtn.addEventListener("click", function () {
     gearText.innerText = inputGear.value;
     gear.appendChild(gearText);
 
+    gearText.addEventListener("click", function () {
+        gearText.style.textDecoration = "line-through";
+    });
+
     // adds delete-button to gear in user list
     let deleteBtn = document.createElement("button");
     deleteBtn.textContent = "delete";
