@@ -24,14 +24,23 @@ h1 h2 h3 {
     height: 700px;
 }
 
+/* title and "hero image" */
 .camping-type {
-    background: url(../images/hero2.png) center center;
+    background: url(../images/hero2.png) center;
     height: 120px;
 }
 
 .gear-input {
-    border: 1px solid blue;
-    background: rgba(0, 0, 255, 0.5);
+    text-align: center;
+}
+
+/* text input form */
+#input-gear {
+    font-size: 1rem;
+}
+
+#add-btn {
+    padding: 0.1rem;
 }
 
 #user-list {
