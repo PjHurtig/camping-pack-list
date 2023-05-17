@@ -9,6 +9,8 @@ body {
     background: slategrey;
     color: #1D1F1E;
     font-family: 'Cantarell', sans-serif;
+    background: rgb(219, 205, 191);
+    background: radial-gradient(circle, rgba(219, 205, 191, 1) 0%, rgba(155, 181, 201, 1) 100%)
 }
 
 h1,
