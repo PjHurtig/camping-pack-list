@@ -18,7 +18,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // function for deleteBtn, removes item from user list
     function deleteItem(gear) {
-        userList.removeChild(gear);
+        const confirmDelete = confirm("Delete this item?");
+        if (confirmDelete === true) {
+            userList.removeChild(gear);
+        }
+
     }
 
     // function for editBtn, allow edit text in paragraph
