@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     // adds item div and paragraph with gear item text
-    function updateItemList(newItem, defaultItems) {
+    function updateItemList(newItem) {
         const gear = document.createElement("div");
         const gearText = document.createElement("p");
         gearText.innerText = newItem;
