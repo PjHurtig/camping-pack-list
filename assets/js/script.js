@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", function () {
     let userList = document.getElementById("user-list");
     let inputGear = document.getElementById("input-gear");
 
+
+    // checks if user input field is empty and alerts the user to enter a value
     function getItemValue() {
         const gearText = inputGear.value;
         if (gearText === "") {
@@ -15,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 
-
+    // adds item div and paragraph with gear item text
     function addNewItem() {
         const newItem = getItemValue();
         if (newItem !== false) {
@@ -24,10 +26,12 @@ document.addEventListener("DOMContentLoaded", function () {
             gearText.innerText = newItem;
             gear.appendChild(gearText);
             userList.appendChild(gear);
+            // remove text from input field after adding
+            inputGear.value = "";
         }
     }
 
-
+    // adds gear to user list from text input field when "add" button is clicked
     addBtn.addEventListener("click", addNewItem);
 
 
