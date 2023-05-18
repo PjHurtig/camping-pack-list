@@ -3,6 +3,8 @@ document.addEventListener("DOMContentLoaded", function () {
     let addBtn = document.getElementById("add-btn");
     let userList = document.getElementById("user-list");
     let inputGear = document.getElementById("input-gear");
+    const defaultItems = ["Backpack", "Shelter (tent/hammock/tarp/bivvy)", "Sleeping system (sleeping-bag, quilt)",
+        "Water (1 litre/day)", "Headlight (extra batteries)", "Fire (matches, lighter, steel)", "Knife"];
 
 
     // checks if user input field is empty and alerts the user to enter a value
@@ -65,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // adds item div and paragraph with gear item text
-    function updateItemList(newItem) {
+    function updateItemList(newItem, defaultItems) {
         const gear = document.createElement("div");
         const gearText = document.createElement("p");
         gearText.innerText = newItem;
@@ -84,8 +86,18 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
+    // creates list items of defaultitems-array in top of document
+    function addDefaultItems() {
+        defaultItems.forEach(function (defaultItem) {
+            updateItemList(defaultItem);
+        });
+    }
+
     // adds gear to user list from text input field when "add" button is clicked
     addBtn.addEventListener("click", addNewItem);
+
+    addDefaultItems();
+
 
 
 });
