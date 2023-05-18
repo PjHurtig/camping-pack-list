@@ -6,7 +6,6 @@ document.addEventListener("DOMContentLoaded", function () {
     const defaultItems = ["Backpack", "Shelter (tent/hammock/tarp/bivvy)", "Sleeping system (sleeping-bag, quilt)",
         "Water (1 litre/day)", "Headlight (extra batteries)", "Fire (matches, lighter, steel)", "Knife"];
 
-
     // checks if user input field is empty and alerts the user to enter a value
     function getItemValue() {
         const gearText = inputGear.value;
@@ -24,14 +23,14 @@ document.addEventListener("DOMContentLoaded", function () {
         if (confirmDelete === true) {
             userList.removeChild(gear);
         }
-
     }
 
     // function for editBtn, allow edit text in paragraph
     function editItem(gearText) {
         gearText.contentEditable = true;
         gearText.focus();
-
+        // press enter to "save item" functionality 
+        // code from love-maths project(https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode)
         gearText.addEventListener("keydown", function (event) {
             if (event.key === "Enter") {
                 saveItem(gearText);
@@ -39,7 +38,7 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    // function for saveBtn, disallow edit text in paragraph
+    // function for saveBtn, disallow editing of text in paragraph
     function saveItem(gearText) {
         gearText.contentEditable = false;
     }
