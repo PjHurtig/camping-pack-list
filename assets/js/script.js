@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-    // function for deleteBtn, removes item from user list
+    // function for deleteBtn, removes item from user list (after user confirm)
     function deleteItem(gear) {
         const confirmDelete = confirm("Delete this item?");
         if (confirmDelete === true) {
@@ -97,7 +97,5 @@ document.addEventListener("DOMContentLoaded", function () {
     addBtn.addEventListener("click", addNewItem);
 
     addDefaultItems();
-
-
 
 });
