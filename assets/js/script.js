@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function addButtonsToItem(gear, gearText) {
         // adds delete-button to gear in user list
         const deleteBtn = document.createElement("button");
-        deleteBtn.textContent = "delete";
+        deleteBtn.textContent = "X";
         // delete-button: when clicked, removes gear item from user list
         deleteBtn.addEventListener("click", function () {
             deleteItem(gear);
@@ -111,6 +111,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
+    // adds list of defaultitems
     addDefaultItems();
 
 });
