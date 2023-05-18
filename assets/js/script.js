@@ -17,6 +17,19 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
+
+    // function hideSaveBtn(gearText, saveBtn) {
+    //     if (gearText.contentEditable !== false) {
+    //         saveBtn.style.display = "none";
+    //     }
+    // }
+
+    // function hideEditBtn(gearText, editBtn) {
+    //     if (gearText.contentEditable !== true) {
+    //         editBtn.style.display = "none";
+    //     }
+    // }
+
     // function for deleteBtn, removes item from user list (after user confirm)
     function deleteItem(gear) {
         const confirmDelete = confirm("Delete this item?");
@@ -37,6 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     }
+
 
     // function for saveBtn, disallow editing of text in paragraph
     function saveItem(gearText) {
@@ -59,18 +73,24 @@ document.addEventListener("DOMContentLoaded", function () {
         // edit-button: when clicked, makes gear item text editable
         editBtn.addEventListener("click", function () {
             editItem(gearText);
+            editBtn.style.display = "none";
+            saveBtn.style.display = "initial";
         });
         gear.appendChild(editBtn);
 
         // adds save-button to save changes made with edit button
         const saveBtn = document.createElement("button");
         saveBtn.textContent = "done";
+        saveBtn.style.display = "none";
         // save-button: when clicked makes gear text not editable
         saveBtn.addEventListener("click", function () {
             saveItem(gearText);
+            editBtn.style.display = "initial";
+            saveBtn.style.display = "none";
         });
         gear.appendChild(saveBtn);
     }
+
 
     // add a checkbox input to check/uncheck item
     function addCheckedInput(gear) {
@@ -122,5 +142,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // adds list of defaultitems
     addDefaultItems();
+
+
+
+
+
 
 });
