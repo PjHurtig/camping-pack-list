@@ -97,6 +97,14 @@ document.addEventListener("DOMContentLoaded", function () {
     // adds gear to user list from text input field when "add" button is clicked
     addBtn.addEventListener("click", addNewItem);
 
+    // press enter to add item functionality 
+    // code from love-maths project(https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode)
+    inputGear.addEventListener("keydown", function (event) {
+        if (event.key === "Enter") {
+            addNewItem();
+        }
+    });
+
     addDefaultItems();
 
 });
