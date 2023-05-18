@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // function for editBtn, allow edit text in paragraph
     function editItem(gearText) {
         gearText.contentEditable = true;
+        gearText.focus();
     }
 
     // function for saveBtn, disallow edit text in paragraph
