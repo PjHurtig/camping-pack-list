@@ -21,17 +21,30 @@ document.addEventListener("DOMContentLoaded", function () {
         userList.removeChild(gear);
     }
 
-    function addButtonsToItem(gear) {
+    // function for editBtn, allow edit text in paragraph
+    function editItem(gearText) {
+        gearText.contentEditable = true;
+    }
+
+    function addButtonsToItem(gear, gearText) {
         // adds delete-button to gear in user list
-        let deleteBtn = document.createElement("button");
+        const deleteBtn = document.createElement("button");
         deleteBtn.textContent = "delete";
 
         // delete-button: when clicked, removes gear item from user list
         deleteBtn.addEventListener("click", function () {
             deleteItem(gear);
         });
-
         gear.appendChild(deleteBtn);
+
+        // adds edit-button to gear in user list
+        let editBtn = document.createElement("button");
+        editBtn.textContent = "edit";
+        // edit-button: when clicked, makes gear item text editable
+        editBtn.addEventListener("click", function () {
+            editItem(gearText);
+        });
+        gear.appendChild(editBtn);
     }
 
 
@@ -41,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function () {
         gearText.innerText = newItem;
         gear.appendChild(gearText);
         userList.appendChild(gear);
-        addButtonsToItem(gear);
+        addButtonsToItem(gear, gearText);
     }
 
     // adds item div and paragraph with gear item text
