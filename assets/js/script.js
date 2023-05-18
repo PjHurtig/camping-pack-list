@@ -102,6 +102,7 @@ document.addEventListener("DOMContentLoaded", function () {
     inputGear.addEventListener("keydown", function (event) {
         if (event.key === "Enter") {
             addNewItem();
+            inputGear.focus();
         }
     });
 
