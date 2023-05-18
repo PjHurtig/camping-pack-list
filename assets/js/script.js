@@ -21,6 +21,12 @@ document.addEventListener("DOMContentLoaded", function () {
         // adds delete-button to gear in user list
         let deleteBtn = document.createElement("button");
         deleteBtn.textContent = "delete";
+
+        // delete-button: when clicked, removes gear item from user list
+        deleteBtn.addEventListener("click", function () {
+            userList.removeChild(gear);
+        });
+
         gear.appendChild(deleteBtn);
     }
 
