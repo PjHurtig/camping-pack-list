@@ -17,15 +17,19 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 
+    function updateItemList(newItem) {
+        const gear = document.createElement("div");
+        const gearText = document.createElement("p");
+        gearText.innerText = newItem;
+        gear.appendChild(gearText);
+        userList.appendChild(gear);
+    }
+
     // adds item div and paragraph with gear item text
     function addNewItem() {
         const newItem = getItemValue();
         if (newItem !== false) {
-            const gear = document.createElement("div");
-            const gearText = document.createElement("p");
-            gearText.innerText = newItem;
-            gear.appendChild(gearText);
-            userList.appendChild(gear);
+            updateItemList(newItem);
             // remove text from input field after adding
             inputGear.value = "";
         }
