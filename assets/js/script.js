@@ -51,6 +51,17 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
+    function hideEditBtn(editBtn, saveBtn) {
+        editBtn.style.display = "none";
+        saveBtn.style.display = "initial";
+    }
+
+    function hideSaveBtn(editBtn, saveBtn) {
+        editBtn.style.display = "initial";
+        saveBtn.style.display = "none";
+    }
+
+
 
     // function for saveBtn, disallow editing of text in paragraph
     function saveItem(gearText) {
@@ -73,8 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // edit-button: when clicked, makes gear item text editable
         editBtn.addEventListener("click", function () {
             editItem(gearText);
-            editBtn.style.display = "none";
-            saveBtn.style.display = "initial";
+            hideEditBtn(editBtn, saveBtn);
         });
         gear.appendChild(editBtn);
 
@@ -85,8 +95,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // save-button: when clicked makes gear text not editable
         saveBtn.addEventListener("click", function () {
             saveItem(gearText);
-            editBtn.style.display = "initial";
-            saveBtn.style.display = "none";
+            hideSaveBtn(editBtn, saveBtn);
         });
         gear.appendChild(saveBtn);
     }
