@@ -75,6 +75,7 @@ h3 {
     margin-left: 0.3rem;
     color: #DBCDBF;
     text-align: left;
+    text-transform: capitalize;
 }
 
 /* checkbox */
