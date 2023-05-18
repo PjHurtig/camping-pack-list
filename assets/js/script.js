@@ -72,6 +72,14 @@ document.addEventListener("DOMContentLoaded", function () {
         gear.appendChild(saveBtn);
     }
 
+    // add a radio input to check/uncheck item
+    function addCheckedInput(gear) {
+        const checkedRadioInput = document.createElement("input");
+        checkedRadioInput.type = "radio";
+        gear.appendChild(checkedRadioInput);
+    }
+
+
     // adds item div and paragraph with gear item text
     function updateItemList(newItem, defaultItems) {
         const gear = document.createElement("div");
@@ -80,6 +88,7 @@ document.addEventListener("DOMContentLoaded", function () {
         gear.appendChild(gearText);
         userList.appendChild(gear);
         addButtonsToItem(gear, gearText);
+        addCheckedInput(gear);
     }
 
     // adds item list with gear item text
