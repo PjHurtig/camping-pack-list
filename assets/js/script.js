@@ -31,6 +31,12 @@ document.addEventListener("DOMContentLoaded", function () {
     function editItem(gearText) {
         gearText.contentEditable = true;
         gearText.focus();
+
+        gearText.addEventListener("keydown", function (event) {
+            if (event.key === "Enter") {
+                saveItem(gearText);
+            }
+        });
     }
 
     // function for saveBtn, disallow edit text in paragraph
