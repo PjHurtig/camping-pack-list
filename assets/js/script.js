@@ -16,6 +16,10 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
+    // function for deleteBtn, removes item from user list
+    function deleteItem(gear) {
+        userList.removeChild(gear);
+    }
 
     function addButtonsToItem(gear) {
         // adds delete-button to gear in user list
@@ -24,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // delete-button: when clicked, removes gear item from user list
         deleteBtn.addEventListener("click", function () {
-            userList.removeChild(gear);
+            deleteItem(gear);
         });
 
         gear.appendChild(deleteBtn);
