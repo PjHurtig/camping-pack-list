@@ -17,12 +17,21 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
 
+    function addButtonsToItem(gear) {
+        // adds delete-button to gear in user list
+        let deleteBtn = document.createElement("button");
+        deleteBtn.textContent = "delete";
+        gear.appendChild(deleteBtn);
+    }
+
+
     function updateItemList(newItem) {
         const gear = document.createElement("div");
         const gearText = document.createElement("p");
         gearText.innerText = newItem;
         gear.appendChild(gearText);
         userList.appendChild(gear);
+        addButtonsToItem(gear);
     }
 
     // adds item div and paragraph with gear item text
