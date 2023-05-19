@@ -54,6 +54,8 @@ h3 {
     padding: 0.4rem;
     margin: 0.5rem 0;
     border-radius: 20px 0 0 20px;
+    font-family: 'Cantarell', sans-serif;
+    color: #444655;
 }
 
 /* input button */
@@ -63,6 +65,8 @@ h3 {
     padding: 0.5rem;
     border-radius: 0px 20px 20px 0;
     background-color: #E3F0FF;
+    font-family: 'Cantarell', sans-serif;
+    color: #444655;
 }
 
 /* where users gear list is */
@@ -90,18 +94,21 @@ h3 {
 #user-list div>input {
     border: none;
     float: left;
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
     margin-left: 0.2rem;
+    margin-top: 2px;
 }
 
 /* delete edit save buttons */
 #user-list div>button {
     appearance: none;
     border: none;
-    padding: 0.15rem;
-    margin: 1px;
+    padding: 0.3rem;
+    margin: 2px;
     text-transform: uppercase;
+    border-radius: 5px;
+    font-family: 'Cantarell', sans-serif;
 }
 
 /* responsive app */
