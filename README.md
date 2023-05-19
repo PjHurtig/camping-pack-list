@@ -100,7 +100,7 @@ Throughout development i have contiously used theese validator services to test 
 - [w3 html vaildator](https://validator.w3.org/) for validating HTML file
 - [jshint](https://jshint.com/) for testing javascript file
 - [lighthouse](https://chrome.google.com/webstore/detail/lighthouse/) for checking performance and more
-- 
+
 CSS
 
 ![cssvalidator](https://i.ibb.co/pwhqbNC/chrome-SB8-Ci-W7-WZh.png)
@@ -123,7 +123,7 @@ The accessibility score is low because of the checkbox inputs generated do not h
 
 ### Personal Testing
 
-i have tested the app on devices available to me with no problems
+i have tested the app on theese devices available to me with no problems
 
 #### Phones
 
@@ -176,3 +176,5 @@ All text content made by Jonatan Hurtig (the author of this project)
 Image at the top is from Guillaume Gouin on [unsplash](https://unsplash.com/photos/68YXvKCobKI)
 
 # Bugs
+
+Bugs
