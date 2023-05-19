@@ -49,13 +49,14 @@ Background gradient generated with [cssgradient](https://cssgradient.io/)
 
 ### Typography
 
-For headinings i used Fjalla One and for buttons and text i used Cantarell since they make a nice clean font pair. (pairing chosen through [fontpair](https://www.fontpair.co/all))
+For headings i used "Fjalla One" and for buttons and text i used "Cantarell" since they make a nice clean font pair. (pairing chosen through [fontpair](https://www.fontpair.co/all))
 
 ![fontpair](https://i.ibb.co/PN0VJ1V/chrome-h-XB7-Wr-JD03.png)
 
 ### Imagery
 
-Image at the top is from [unsplash](https://unsplash.com/photos/68YXvKCobKI)
+![camping](https://i.ibb.co/5FJpzsJ/Untitled-2.png)
+Image is from [unsplash](https://unsplash.com/photos/68YXvKCobKI) and evokes a feeling of freedom and how camping can be enjoyed when you have all the gear you need!
 
 ### Overall feel
 
