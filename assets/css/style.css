@@ -125,41 +125,47 @@ h3 {
         border-radius: 0px;
     }
 
-}
-
-@media screen and (max-width: 300px) {
-
-    .camping-type {
-        background: url(../images/hero1.png) left;
-        height: 120px;
-        border-radius: 0px;
+    #user-list div {
+        margin: 0.2rem 0.2rem;
     }
 
-    #input-gear {
-        width: 99%;
+    @media screen and (max-width: 300px) {
+
+        .camping-type {
+            background: url(../images/hero1.png) left;
+            height: 120px;
+            border-radius: 0px;
+        }
+
+        #input-gear {
+            width: 99%;
+        }
+
+        .app-section h1,
+        h2 {
+            font-size: large;
+            text-align: center;
+        }
+
+        .camping-type h2 {
+            color: coral;
+        }
+
+        #input-gear {
+            border-radius: 0;
+        }
+
+        #add-btn {
+            padding: 0.1rem;
+            border: none;
+            padding: 0.5rem;
+            border-radius: 20px;
+            background-color: #E3F0FF;
+        }
+
+        #user-list div {
+            margin: 0.2rem 0.2rem;
+        }
+
+
     }
-
-    .app-section h1,
-    h2 {
-        font-size: large;
-        text-align: center;
-    }
-
-    .camping-type h2 {
-        color: coral;
-    }
-
-    #input-gear {
-        border-radius: 0;
-    }
-
-    #add-btn {
-        padding: 0.1rem;
-        border: none;
-        padding: 0.5rem;
-        border-radius: 20px;
-        background-color: #E3F0FF;
-    }
-
-
-}
