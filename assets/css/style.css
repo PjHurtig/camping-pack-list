@@ -44,6 +44,7 @@ h3 {
 
 .gear-input {
     text-align: center;
+    overflow: hidden;
 }
 
 /* text input form */
@@ -112,5 +113,9 @@ h3 {
     .app-section h1,
     h2 {
         font-size: 90%;
+    }
+
+    #input-gear {
+        width: 100%;
     }
 }
