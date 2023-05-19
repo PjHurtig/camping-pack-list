@@ -3,6 +3,8 @@
 This is an app for people who want to go camping but do not want to forget the essentials!
 The user can choose what type of camping trip they are going on and get a comprehensive list of suggested gear from which they can edit/add/remove according to their own preferences.
 
+![amiresponsive](https://i.ibb.co/fvJndY0/chrome-Qkz8-Gkhg1n.png)
+
 # Features
 
 ## Current Features
@@ -29,27 +31,40 @@ The user can choose what type of camping trip they are going on and get a compre
 
 ## User Stories
 
-- As a user I want to be able to choose what type of trip I am going on and get help with my packing
-- As a user I want to create a pack-list from scratch if I want to
-- As a user I want to remove or change items in a list to suit my needs
+- As a user I want to add items to the list
+- As a user I want to edit gear on the list
+- As a user I want to remove gear on the list
+- As a user I want to check off items packed
 
 # Design
 
 ### Colour Palette
 
+I chose a simple colour palette that is easy on the eyes and does not take attention away from the content.
+
+![amiresponsive](https://i.ibb.co/F88mgnp/Code-P8-CElp-MPnc.png)
+
 ### Typography
+
+For headinings i used Fjalla One and for buttons and text i used Cantarell since they make a nice clean font pair. (pairing chosen through [fontpair](https://www.fontpair.co/all))
+
+![fontpair](https://i.ibb.co/PN0VJ1V/chrome-h-XB7-Wr-JD03.png)
 
 ### Imagery
 
+Image at the top is from [unsplash](https://unsplash.com/photos/68YXvKCobKI)
+
 ### Overall feel
+
+I wanted this to be a very simple and easy to understand tool for anyone wanting to check of the essentials before their trip. No instructions needed, just a functioning pack-list with unintrusive colors and images.
 
 ## Wireframe / Initial design
 
 ### Initial wireframe
 
-![Wireframe1](https://i.imgur.com/RHm3fsC.png)
+![Wireframe1](https://i.ibb.co/4Sx2xdq/wireframe1.png)
 
-![Wireframe2](https://i.imgur.com/trSHH82.jpg)
+[notebook sketch](https://i.ibb.co/PcSp4Gq/wireframe2.jpg)
 
 # Tools Used
 
@@ -82,7 +97,7 @@ The user can choose what type of camping trip they are going on and get a compre
 ## Code
 
 - Initial code and inspiration from CodeDuck video: <https://www.youtube.com/watch?v=-pRg_daFjfk>
-- Edit button (content editable) information from: https://.io/JoannaEl/pen/ZjaBvrcodepen
+- Edit button (content editable) information from: <https://.io/JoannaEl/pen/ZjaBvrcodepen>
 - Submit on "Enter-key" keydown information from https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
 
 ## Content
@@ -90,7 +105,3 @@ The user can choose what type of camping trip they are going on and get a compre
 ## Media
 
 # Bugs
-
-
-
-
