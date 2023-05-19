@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // adds edit-button to gear in user list
         const editBtn = document.createElement("button");
         editBtn.textContent = "edit";
-        // edit-button: when clicked, makes gear item text editable
+        // edit-button: when clicked, makes gear item text editable and hides edit button("done"button visible)
         editBtn.addEventListener("click", function () {
             editItem(gearText, editBtn, saveBtn);
             hideEditBtn(editBtn, saveBtn);
@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const saveBtn = document.createElement("button");
         saveBtn.textContent = "done";
         saveBtn.style.display = "none";
-        // save-button: when clicked makes gear text not editable
+        // save-button: when clicked makes gear text not editable and hides "done" button(edit button visible)
         saveBtn.addEventListener("click", function () {
             saveItem(gearText);
             hideSaveBtn(editBtn, saveBtn);
