@@ -29,19 +29,17 @@ h3 {
 
 /* title and "hero image" */
 .camping-type {
-    background: url(../images/hero2.png) center;
+    background: url(../images/hero1.png) center;
     height: 120px;
 }
 
 .camping-type h1 {
     font-size: 3rem;
-    color: #DBCDBF;
-    background-color: #1d1f1e4d;
+    color: #444655;
 }
 
 .camping-type h2 {
-    color: #DBCDBF;
-    background-color: #1d1f1e4d;
+    color: #444655;
 }
 
 .gear-input {

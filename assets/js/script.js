@@ -17,19 +17,6 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
-
-    // function hideSaveBtn(gearText, saveBtn) {
-    //     if (gearText.contentEditable !== false) {
-    //         saveBtn.style.display = "none";
-    //     }
-    // }
-
-    // function hideEditBtn(gearText, editBtn) {
-    //     if (gearText.contentEditable !== true) {
-    //         editBtn.style.display = "none";
-    //     }
-    // }
-
     // function for deleteBtn, removes item from user list (after user confirm)
     function deleteItem(gear) {
         const confirmDelete = confirm("Delete this item?");
@@ -39,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // function for editBtn, allow edit text in paragraph
-    function editItem(gearText) {
+    function editItem(gearText, editBtn, saveBtn) {
         gearText.contentEditable = true;
         gearText.focus();
         // press enter to "save item" functionality 
@@ -47,6 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
         gearText.addEventListener("keydown", function (event) {
             if (event.key === "Enter") {
                 saveItem(gearText);
+                hideSaveBtn(editBtn, saveBtn);
             }
         });
     }
