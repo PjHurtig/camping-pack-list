@@ -100,6 +100,14 @@ Throughout development i have contiously used theese validator services to test 
 - [w3 html vaildator](https://validator.w3.org/) for validating HTML file
 - [jshint](https://jshint.com/) for testing javascript file
 - [lighthouse](https://chrome.google.com/webstore/detail/lighthouse/) for checking performance and more
+- 
+CSS
+
+![cssvalidator](https://i.ibb.co/pwhqbNC/chrome-SB8-Ci-W7-WZh.png)
+
+HTML
+
+![htmlvalidator](https://i.ibb.co/QXf5t8p/chrome-gem-Jd0-OUU3.png)
 
 ## Lighthouse Testing
 
