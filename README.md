@@ -34,4 +34,7 @@ The user can choose what type of camping trip they are going on and get a compre
 
 ## Wireframe
 
+### Initial wireframe
 ![Wireframe1](https://i.imgur.com/RHm3fsC.png)
+
+![Wireframe2](https://i.imgur.com/trSHH82.jpg)
