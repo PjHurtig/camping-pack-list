@@ -40,9 +40,11 @@ The user can choose what type of camping trip they are going on and get a compre
 
 ### Colour Palette
 
-I chose a simple colour palette that is easy on the eyes and does not take attention away from the content.
+I chose a simple colour palette that is easy on the eyes and does not take attention away from the content. Palette choosen with [mycolor](https://mycolor.space/)
 
 ![amiresponsive](https://i.ibb.co/F88mgnp/Code-P8-CElp-MPnc.png)
+
+Background gradient generated with [cssgradient](https://cssgradient.io/)
 
 ### Typography
 
@@ -56,7 +58,7 @@ Image at the top is from [unsplash](https://unsplash.com/photos/68YXvKCobKI)
 
 ### Overall feel
 
-I wanted this to be a very simple and easy to understand tool for anyone wanting to check of the essentials before their trip. No instructions needed, just a functioning pack-list with unintrusive colors and images.
+I wanted this to be a very simple and easy to understand tool for anyone wanting to check off the essentials before their trip. No instructions needed, just a functioning pack-list with unintrusive colors and images.
 
 ## Wireframe / Initial design
 
@@ -68,7 +70,17 @@ I wanted this to be a very simple and easy to understand tool for anyone wanting
 
 # Tools Used
 
+- [balsamiq](https://balsamiq.com/) for initial wireframe
+- [css gradient](https://cssgradient.io/) for background gradient
+- [tinypng](https://tinypng.com/) for reducing size of image
+- [gimp](https://www.gimp.org/) for cropping image
+- [w3 css vaildator](https://jigsaw.w3.org/css-validator/) for validating the css file
+- [w3 html vaildator](https://validator.w3.org/) for validating HTML file
+- [lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=sv) for checking performance and more
+
 ## Languages used
+
+
 
 ## Programmes and other tools
 
