@@ -17,6 +17,18 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     }
 
+    // hide edit button when text is edtitable
+    function hideEditBtn(editBtn, saveBtn) {
+        editBtn.style.display = "none";
+        saveBtn.style.display = "initial";
+    }
+
+    // hide save button when text is not edtitable
+    function hideSaveBtn(editBtn, saveBtn) {
+        editBtn.style.display = "initial";
+        saveBtn.style.display = "none";
+    }
+
     // function for deleteBtn, removes item from user list (after user confirm)
     function deleteItem(gear) {
         const confirmDelete = confirm("Delete this item?");
@@ -38,18 +50,6 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     }
-
-    function hideEditBtn(editBtn, saveBtn) {
-        editBtn.style.display = "none";
-        saveBtn.style.display = "initial";
-    }
-
-    function hideSaveBtn(editBtn, saveBtn) {
-        editBtn.style.display = "initial";
-        saveBtn.style.display = "none";
-    }
-
-
 
     // function for saveBtn, disallow editing of text in paragraph
     function saveItem(gearText) {
