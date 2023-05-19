@@ -31,6 +31,7 @@ The user gets a list of suggested gear from which they can edit/add/remove accor
 
 ## User Stories
 
+- As a user I want to get a list of suggested items to bring camping
 - As a user I want to add items to the list
 - As a user I want to edit gear on the list
 - As a user I want to remove gear on the list
