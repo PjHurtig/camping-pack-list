@@ -9,6 +9,7 @@ The user gets a list of suggested gear from which they can edit/add/remove accor
 
 ## Current Features
 
+- Generate a list of exxential gear
 - Add “gear” to the pack-list
 - Remove “gear” from the pack-list
 - Edit “gear” in the pack-list
