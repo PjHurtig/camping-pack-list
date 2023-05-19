@@ -50,11 +50,19 @@ h3 {
 /* text input form */
 #input-gear {
     font-size: 1rem;
+    border: none;
+    padding: 0.4rem;
+    margin: 0.5rem 0;
+    border-radius: 20px 0 0 20px;
 }
 
 /* input button */
 #add-btn {
     padding: 0.1rem;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0px 20px 20px 0;
+    background-color: #E3F0FF;
 }
 
 /* where users gear list is */
@@ -107,15 +115,25 @@ h3 {
 
 @media screen and (max-width: 250px) {
     #input-gear {
-        width: 100%;
+        width: 99%;
     }
 
     .app-section h1,
     h2 {
-        font-size: 90%;
+        font-size: large;
     }
 
     #input-gear {
-        width: 100%;
+        border-radius: 0;
     }
+
+    #add-btn {
+        padding: 0.1rem;
+        border: none;
+        padding: 0.5rem;
+        border-radius: 20px;
+        background-color: #E3F0FF;
+    }
+
+
 }
