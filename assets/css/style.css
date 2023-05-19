@@ -121,7 +121,7 @@ h3 {
     }
 }
 
-@media screen and (max-width: 250px) {
+@media screen and (max-width: 300px) {
 
     .camping-type {
         background: url(../images/hero1.png) left;
@@ -136,6 +136,10 @@ h3 {
     h2 {
         font-size: large;
         text-align: center;
+    }
+
+    .camping-type h2 {
+        color: coral;
     }
 
     #input-gear {
