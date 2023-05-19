@@ -3,7 +3,9 @@
 This is an app for people who want to go camping but do not want to forget the essentials!
 The user can choose what type of camping trip they are going on and get a comprehensive list of suggested gear from which they can edit/add/remove according to their own preferences.
 
-## Features
+# Features
+
+## Current Features
 
 - Add “gear” to the pack-list
 - Remove “gear” from the pack-list
@@ -12,7 +14,6 @@ The user can choose what type of camping trip they are going on and get a compre
 - when edit button is pressed the focus moves to the editable text
 - when entering an item in the text input field you can press the add-button or press enter to add.  
 - Whole app is fully responsive
-
 
 ## Future Features
 
@@ -32,9 +33,64 @@ The user can choose what type of camping trip they are going on and get a compre
 - As a user I want to create a pack-list from scratch if I want to
 - As a user I want to remove or change items in a list to suit my needs
 
-## Wireframe
+# Design
+
+### Colour Palette
+
+### Typography
+
+### Imagery
+
+### Overall feel
+
+## Wireframe / Initial design
 
 ### Initial wireframe
+
 ![Wireframe1](https://i.imgur.com/RHm3fsC.png)
 
 ![Wireframe2](https://i.imgur.com/trSHH82.jpg)
+
+# Tools Used
+
+## Languages used
+
+## Programmes and other tools
+
+# Testing
+
+## Validator Testing
+
+## lighthouse Testing
+
+### Lighthouse desktop
+
+### Lighthouse Mobile
+
+## Other testing
+
+# Deployment
+
+## Deployment through GitHub Pages
+
+## Forking the Repository
+
+## Making a Local Clone
+
+# Credits
+
+## Code
+
+- Initial code and inspiration from CodeDuck video: <https://www.youtube.com/watch?v=-pRg_daFjfk>
+- Edit button (content editable) information from: https://.io/JoannaEl/pen/ZjaBvrcodepen
+- Submit on "Enter-key" keydown information from https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
+
+## Content
+
+## Media
+
+# Bugs
+
+
+
+
