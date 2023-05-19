@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
         editBtn.textContent = "edit";
         // edit-button: when clicked, makes gear item text editable
         editBtn.addEventListener("click", function () {
-            editItem(gearText);
+            editItem(gearText, editBtn, saveBtn);
             hideEditBtn(editBtn, saveBtn);
         });
         gear.appendChild(editBtn);
