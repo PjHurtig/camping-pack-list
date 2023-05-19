@@ -41,7 +41,7 @@ The user gets a list of suggested gear from which they can edit/add/remove accor
 
 ### Colour Palette
 
-I chose a simple colour palette that is easy on the eyes and does not take attention away from the content. Palette choosen with [mycolor](https://mycolor.space/)
+I chose a simple colour palette that is easy on the eyes and does not take attention away from the content. Palette chosen with [mycolor](https://mycolor.space/)
 
 ![amiresponsive](https://i.ibb.co/F88mgnp/Code-P8-CElp-MPnc.png)
 
