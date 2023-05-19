@@ -16,8 +16,9 @@ body {
 h1,
 h2,
 h3 {
-    color: #1D1F1E;
+    color: rgba(155, 181, 201, 1);
     font-family: 'Fjalla One', sans-serif;
+    text-align: center;
 }
 
 .app-section {
@@ -35,11 +36,11 @@ h3 {
 
 .camping-type h1 {
     font-size: 3rem;
-    color: #444655;
+    text-transform: uppercase;
 }
 
 .camping-type h2 {
-    color: #444655;
+    color: white;
 }
 
 .gear-input {
@@ -121,6 +122,12 @@ h3 {
 }
 
 @media screen and (max-width: 250px) {
+
+    .camping-type {
+        background: url(../images/hero1.png) left;
+        height: 120px;
+    }
+
     #input-gear {
         width: 99%;
     }
@@ -128,6 +135,7 @@ h3 {
     .app-section h1,
     h2 {
         font-size: large;
+        text-align: center;
     }
 
     #input-gear {
