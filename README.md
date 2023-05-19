@@ -76,17 +76,27 @@ I wanted this to be a very simple and easy to understand tool for anyone wanting
 - [gimp](https://www.gimp.org/) for cropping image
 - [w3 css vaildator](https://jigsaw.w3.org/css-validator/) for validating the css file
 - [w3 html vaildator](https://validator.w3.org/) for validating HTML file
+- [jshint](https://jshint.com/) for testing javascript file
 - [lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=sv) for checking performance and more
 
 ## Languages used
 
-
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
 
 ## Programmes and other tools
 
 # Testing
 
 ## Validator Testing
+
+Throughout development i have contiously used theese validator services to test and adress warnings and errors in the code
+
+- [w3 css vaildator](https://jigsaw.w3.org/css-validator/) for validating the css file
+- [w3 html vaildator](https://validator.w3.org/) for validating HTML file
+- [jshint](https://jshint.com/) for testing javascript file
+- [lighthouse](https://chrome.google.com/webstore/detail/lighthouse/) for checking performance and more
 
 ## lighthouse Testing
 
