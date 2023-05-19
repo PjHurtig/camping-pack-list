@@ -9,7 +9,7 @@ The user gets a list of suggested gear from which they can edit/add/remove accor
 
 ## Current Features
 
-- Generate a list of exxential gear
+- Generate a list of essential gear
 - Add “gear” to the pack-list
 - Remove “gear” from the pack-list
 - Edit “gear” in the pack-list
@@ -56,6 +56,7 @@ For headings i used "Fjalla One" and for buttons and text i used "Cantarell" sin
 ### Imagery
 
 ![camping](https://i.ibb.co/5FJpzsJ/Untitled-2.png)
+
 Image is from [unsplash](https://unsplash.com/photos/68YXvKCobKI) and evokes a feeling of freedom and how camping can be enjoyed when you have all the gear you need!
 
 ### Overall feel
