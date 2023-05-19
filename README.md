@@ -98,13 +98,47 @@ Throughout development i have contiously used theese validator services to test 
 - [jshint](https://jshint.com/) for testing javascript file
 - [lighthouse](https://chrome.google.com/webstore/detail/lighthouse/) for checking performance and more
 
-## lighthouse Testing
+## Lighthouse Testing
 
-### Lighthouse desktop
+### Lighthouse
 
-### Lighthouse Mobile
+![lighthouse desktop](https://i.ibb.co/JFwQmCt/chrome-n83vb8s-Ify.png)
+
+The accessibility score is low because of the checkbox inputs generated do not have labels, the checkboxes are only used as a visual cue that the item is packed (see image below).
+
+![label on input](https://i.ibb.co/Dpmj9R9/chrome-2-PJu-YAF3-LO.png)
 
 ## Other testing
+
+### Personal Testing
+
+i have tested the app on devices available to me with no problems
+
+#### Phones
+
+Huawei mate 20 pro
+
+- Chrome
+- Firefox
+
+Samsung s8
+
+- Chrome
+- Firefox
+
+#### Computers
+
+lenovo ideapad
+
+- Chrome
+- Firefox
+- Edge
+- Opera
+
+Lenovo thinkbook
+
+- Firefox
+- Edge
 
 # Deployment
 
@@ -118,12 +152,14 @@ Throughout development i have contiously used theese validator services to test 
 
 ## Code
 
-- Initial code and inspiration from CodeDuck video: <https://www.youtube.com/watch?v=-pRg_daFjfk>
-- Edit button (content editable) information from: <https://.io/JoannaEl/pen/ZjaBvrcodepen>
-- Submit on "Enter-key" keydown information from https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
+- Initial code and inspiration from CodeDuck video: [youtube](https://www.youtube.com/watch?v=-pRg_daFjfk)
+- Edit button (content editable) information from: [codepen](https://codepen.io/JoannaEl/pen/ZjaBvr)
+- Submit on "Enter-key" keydown information from: [w3schools](https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp)
 
 ## Content
 
 ## Media
+
+Image at the top is from [unsplash](https://unsplash.com/photos/68YXvKCobKI)
 
 # Bugs
