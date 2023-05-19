@@ -1,7 +1,7 @@
 # Camping Pack List
 
 This is an app for people who want to go camping but do not want to forget the essentials!
-The user can choose what type of camping trip they are going on and get a comprehensive list of suggested gear from which they can edit/add/remove according to their own preferences.
+The user gets a list of suggested gear from which they can edit/add/remove according to their own preferences.
 
 ![amiresponsive](https://i.ibb.co/fvJndY0/chrome-Qkz8-Gkhg1n.png)
 
@@ -157,6 +157,8 @@ Lenovo thinkbook
 - Submit on "Enter-key" keydown information from: [w3schools](https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp)
 
 ## Content
+
+All text content made by Jonatan Hurtig (the author of this project)
 
 ## Media
 
