@@ -3,16 +3,16 @@
 This is an app for people who want to go camping but do not want to forget the essentials!
 The user can choose what type of camping trip they are going on and get a comprehensive list of suggested gear from which they can edit/add/remove according to their own preferences.
 
-## Wanted Features
+## Features
 
 - Add “gear” to the pack-list
 - Remove “gear” from the pack-list
 - Edit “gear” in the pack-list
 - Mark gear as “packed” (checked)
-- Choose prefilled lists (drop-down) that can be added to, for “Camping”, “Bike-packing”, “Kayak-Camping” or Empty list
-- Print list (to PDF or printer?)
-- Categories within a list (Camping -> Essentials – Extra Comfort – Optional etc.) that can be removed
+- when edit button is pressed the focus moves to the editable text
+- when entering an item in the text input field you can press the add-button or press enter to add.  
 - Whole app is fully responsive
+
 
 ## Future Features
 
@@ -23,6 +23,8 @@ The user can choose what type of camping trip they are going on and get a compre
 - TAB-able checklist
 - Make profile for better suggestions (hygiene products depending on biological circumstances etc.)
 - Consent to cookies for local storage
+- Choose prefilled lists (drop-down) that can be added to, for “Camping”, “Bike-packing”, “Kayak-Camping” or Empty list
+- Categories within a list (Camping -> Essentials – Extra Comfort – Optional etc.) that can be removed
 
 ## User Stories
 
