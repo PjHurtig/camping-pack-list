@@ -160,6 +160,6 @@ Lenovo thinkbook
 
 ## Media
 
-Image at the top is from [unsplash](https://unsplash.com/photos/68YXvKCobKI)
+Image at the top is from Guillaume Gouin on [unsplash](https://unsplash.com/photos/68YXvKCobKI)
 
 # Bugs
