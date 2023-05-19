@@ -24,9 +24,8 @@ The user gets a list of suggested gear from which they can edit/add/remove accor
 - User-added weight to gear
 - Total pack-weight
 - User-added Categories.
-- TAB-able checklist
 - Make profile for better suggestions (hygiene products depending on biological circumstances etc.)
-- Consent to cookies for local storage
+- Local storage
 - Choose prefilled lists (drop-down) that can be added to, for “Camping”, “Bike-packing”, “Kayak-Camping” or Empty list
 - Categories within a list (Camping -> Essentials – Extra Comfort – Optional etc.) that can be removed
 
