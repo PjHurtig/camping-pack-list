@@ -1,7 +1,7 @@
 # Camping Pack List
 
 This is an app for people who want to go camping but do not want to forget the essentials!
-The user gets a list of suggested gear from which they can edit/add/remove according to their own preferences.
+The user gets a list of suggested gear from which they can edit/add/remove according to their preferences.
 
 ![amiresponsive](https://i.ibb.co/fvJndY0/chrome-Qkz8-Gkhg1n.png)
 
@@ -14,9 +14,9 @@ The user gets a list of suggested gear from which they can edit/add/remove accor
 - Remove “gear” from the pack-list
 - Edit “gear” in the pack-list
 - Mark gear as “packed” (checked)
-- when edit button is pressed the focus moves to the editable text
-- when entering an item in the text input field you can press the add-button or press enter to add.  
-- Whole app is fully responsive
+- When the edit button is pressed the focus moves to the editable text
+- When entering an item in the text input field you can press the add button or press enter to add.  
+- The whole app is fully responsive
 
 ## Future Features
 
@@ -24,24 +24,24 @@ The user gets a list of suggested gear from which they can edit/add/remove accor
 - User-added weight to gear
 - Total pack-weight
 - User-added Categories.
-- Make profile for better suggestions (hygiene products depending on biological circumstances etc.)
+- Make a profile for better suggestions (hygiene products depending on biological circumstances etc.)
 - Local storage
-- Choose prefilled lists (drop-down) that can be added to, for “Camping”, “Bike-packing”, “Kayak-Camping” or Empty list
+- Choose prefilled lists (drop-down) that can be added to, for “Camping”, “Bike-packing”, “Kayak-Camping” or an Empty list
 - Categories within a list (Camping -> Essentials – Extra Comfort – Optional etc.) that can be removed
 
 ## User Stories
 
-- As a user I want to get a list of suggested items to bring camping
-- As a user I want to add items to the list
-- As a user I want to edit gear on the list
-- As a user I want to remove gear on the list
-- As a user I want to check off items packed
+- As a user, I want to get a list of suggested items to bring camping
+- As a user, I want to add items to the list
+- As a user, I want to edit gear on the list
+- As a user, I want to remove gear on the list
+- As a user, I want to check off items packed
 
 # Design
 
 ### Colour Palette
 
-I chose a simple colour palette that is easy on the eyes and does not take attention away from the content. Palette chosen with [mycolor](https://mycolor.space/)
+I chose a simple colour palette that is easy on the eyes and does not take attention away from the content. The palette was chosen with [mycolor](https://mycolor.space/)
 
 ![amiresponsive](https://i.ibb.co/F88mgnp/Code-P8-CElp-MPnc.png)
 
@@ -49,7 +49,7 @@ Background gradient generated with [cssgradient](https://cssgradient.io/)
 
 ### Typography
 
-For headings i used "Fjalla One" and for buttons and text i used "Cantarell" since they make a nice clean font pair. (pairing chosen through [fontpair](https://www.fontpair.co/all))
+For headings I used "Fjalla One" and for buttons and text, i used "Cantarell" since they make a nice clean font pair. (pairing chosen through [fontpair](https://www.fontpair.co/all))
 
 ![fontpair](https://i.ibb.co/PN0VJ1V/chrome-h-XB7-Wr-JD03.png)
 
@@ -57,11 +57,11 @@ For headings i used "Fjalla One" and for buttons and text i used "Cantarell" sin
 
 ![camping](https://i.ibb.co/5FJpzsJ/Untitled-2.png)
 
-Image is from [unsplash](https://unsplash.com/photos/68YXvKCobKI) and evokes a feeling of freedom and how camping can be enjoyed when you have all the gear you need!
+The image is from [unsplash](https://unsplash.com/photos/68YXvKCobKI) and evokes a feeling of freedom and how camping can be enjoyed when you have all the gear you need!
 
 ### Overall feel
 
-I wanted this to be a very simple and easy to understand tool for anyone wanting to check off the essentials before their trip. No instructions needed, just a functioning pack-list with unintrusive colors and images.
+I wanted this to be a very simple and easy-to-understand tool for anyone wanting to check off the essentials before their trip. No instructions are needed, just a functioning pack list with unintrusive colors and images.
 
 ## Wireframe / Initial design
 
@@ -73,13 +73,13 @@ I wanted this to be a very simple and easy to understand tool for anyone wanting
 
 # Tools Used
 
-- [balsamiq](https://balsamiq.com/) for initial wireframe
-- [css gradient](https://cssgradient.io/) for background gradient
-- [tinypng](https://tinypng.com/) for reducing size of image
+- [balsamiq](https://balsamiq.com/) for the initial wireframe
+- [css gradient](https://cssgradient.io/) for the background gradient
+- [tinypng](https://tinypng.com/) for reducing the size of the image
 - [gimp](https://www.gimp.org/) for cropping image
-- [w3 css vaildator](https://jigsaw.w3.org/css-validator/) for validating the css file
-- [w3 html vaildator](https://validator.w3.org/) for validating HTML file
-- [jshint](https://jshint.com/) for testing javascript file
+- [w3 css validator](https://jigsaw.w3.org/css-validator/) for validating the css file
+- [w3 html validator](https://validator.w3.org/) for validating the HTML file
+- [jshint](https://jshint.com/) for testing the javascript file
 - [lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=sv) for checking performance and more
 - [google fonts](https://fonts.google.com/) for the fonts used
 - [imgbb](https://imgbb.com/) for hosting images in this readme
@@ -94,11 +94,11 @@ I wanted this to be a very simple and easy to understand tool for anyone wanting
 
 ## Validator Testing
 
-Throughout development i have contiously used theese validator services to test and adress warnings and errors in the code
+Throughout development, I have continuously used these validator services to test and address warnings and errors in the code
 
 - [w3 css vaildator](https://jigsaw.w3.org/css-validator/) for validating the css file
-- [w3 html vaildator](https://validator.w3.org/) for validating HTML file
-- [jshint](https://jshint.com/) for testing javascript file
+- [w3 html vaildator](https://validator.w3.org/) for validating the HTML file
+- [jshint](https://jshint.com/) for testing the javascript file
 - [lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=sv) for checking performance and more
 
 CSS
@@ -115,17 +115,17 @@ HTML
 
 ![lighthouse desktop](https://i.ibb.co/JFwQmCt/chrome-n83vb8s-Ify.png)
 
-The accessibility score is low because of the checkbox inputs generated do not have labels, the checkboxes are only used as a visual cue that the item is packed (see image below).
+The accessibility score is low because the checkbox inputs generated do not have labels, the checkboxes are only used as a visual cue that the item is packed (see image below).
 
 ![label on input](https://i.ibb.co/Dpmj9R9/chrome-2-PJu-YAF3-LO.png)
 
 ## Other testing
 
-In depth testing of functions and user stories in a separate document [Here](https://github.com/PjHurtig/camping-pack-list/blob/main/assets/TESTING.md)
+In-depth testing of functions and user stories in a separate document [Here](https://github.com/PjHurtig/camping-pack-list/blob/main/assets/TESTING.md)
 
 ### Personal Testing
 
-i have tested the app successully on theese devices available to me.
+I have successfully tested the app on these devices available to me:
 
 #### Phones
 
@@ -153,7 +153,7 @@ Lenovo thinkbook
 - Firefox
 - Edge
 
-### Third party testing
+### Third-party testing
 
 I have gotten positive feedback on both usability and aesthetics from friends, family and professionals testing the app on their devices.
 
@@ -161,27 +161,27 @@ I have gotten positive feedback on both usability and aesthetics from friends, f
 
 ## Hide/Show edit/done button
 
-I made a function to hide the edit putton when pressed and show the "done"-button instead, and vice versa. This worked very well untill i called the function from the eventlistener that made the text uneditable by keydown of "enter-key".
+I made a function to hide the edit button when pressed and show the "done"-button instead, and vice versa. This worked very well until I called the function from the eventlistener that made the text uneditable by keydown of "enter-key".
 
 So even if the editing was "done" the button did not revert to "edit" as can be seen in "sleeping system" item below it is not editable (as the water item is) but the button has not changed.
 
 ![editbutton does not show](https://i.ibb.co/VwHB5t9/hidebutton-event.png)
 
-i got this error mesage in dev tools console:
+I got this error message in the dev tools console:
 
 ![hidesavebutton](https://i.ibb.co/xXbzxsc/chrome-Yk23q-HMi9x.png)
 
-Solution: though i had connected the funtions related to the rows in the error message with parameters, there was an other eventlistener that needed to be connected for it all to work.
+Solution: though I had connected the functions related to the rows in the error message with parameters, there was another eventlistener that needed to be connected for it all to work.
 
-With help from the kind tutor Kevin i got help to understand how they needed to be connected and why.
+With help from the kind tutor Kevin I got help to understand how they needed to be connected and why.
 
 ![initial edit button eventlistener](https://i.ibb.co/K9SpJ6y/chrome-ccdp-Rq-G38-E.png)
 
 ## Early code bug
 
-In early code i wanted to do something similar and had another bug, at that point i tried to do everything inside the same eventlistener that created both of the buttons, this resulted in invisible "done"-buttons being created every time the edit button was pressed.
+In early code I wanted to do something similar and had another bug, at that point I tried to do everything inside the same eventlistener that created both of the buttons, and this resulted in invisible "done"-buttons being created every time the edit button was pressed.
 
-This was only noticed in dev tools element view as the code seemed to work on the surface, the solution that i used then was to remove the button and create it every time so it did not stack in the code. Thankfully as i learned more about functions and the importance of refactoring code, i came up with a much better solution (not without its own complications though!).
+This was only noticed in dev tools element view as the code seemed to work on the surface, the solution that I used then was to remove the button and create it every time so it did not stack in the code. Thankfully as i learned more about functions and the importance of refactoring code, I came up with a much better solution (not without its own complications though!).
 
 # Deployment
 
@@ -224,8 +224,8 @@ This app was deployed through GitHub Pages using the following steps:
 
 ## Content
 
-All text content made by Jonatan Hurtig (thats me, the author of this project)
+All text content made by Jonatan Hurtig (that's me, the author of this project)
 
 ## Media
 
-Image at the top is from Guillaume Gouin on [unsplash](https://unsplash.com/photos/68YXvKCobKI)
+The image at the top is from Guillaume Gouin on [unsplash](https://unsplash.com/photos/68YXvKCobKI)
