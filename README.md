@@ -121,6 +121,8 @@ The accessibility score is low because of the checkbox inputs generated do not h
 
 ## Other testing
 
+In depth testing of functions and user stories in a separate document [Here]()
+
 ### Personal Testing
 
 i have tested the app successully on theese devices available to me.
