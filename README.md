@@ -3,6 +3,8 @@
 This is an app for people who want to go camping but do not want to forget the essentials!
 The user gets a list of suggested gear from which they can edit/add/remove according to their preferences.
 
+The app is live [here](https://pjhurtig.github.io/camping-pack-list/)
+
 ![amiresponsive](https://i.ibb.co/fvJndY0/chrome-Qkz8-Gkhg1n.png)
 
 # Features
