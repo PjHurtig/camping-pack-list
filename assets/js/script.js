@@ -39,6 +39,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // function for editBtn, allow edit text in paragraph
+    // info for code to make content editable from https://codepen.io/JoannaEl/pen/ZjaBvr
     function editItem(gearText, editBtn, saveBtn) {
         gearText.contentEditable = true;
         gearText.focus();
