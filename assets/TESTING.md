@@ -38,11 +38,11 @@ Pressing edit button focuses on the text in the item again
 
 Then pressing enter changes the button back to "edit" and makes the text uneditable.
 
-![](https://i.ibb.co/chxGMmc/chrome-Eg-Izg-Qf7-L6.png)
+![pressed](https://i.ibb.co/chxGMmc/chrome-Eg-Izg-Qf7-L6.png)
 
 ---
 
-Clicking delete gives a confirm message so the user cant accidentally delete items.
+Clicking delete gives a confirm message so the user can't accidentally delete items.
 
 ![clicking delete gives a confirm](https://i.ibb.co/KLDCb6S/chrome-z-HP8-AB0h-H9.png)
 
@@ -52,9 +52,9 @@ Check off items by clicking the checkbox for a visual cue that the item is packe
 
 ---
 
-All default items have the same functionality as the user added ones.
+All default items have the same functionality as the user-added ones.
 
-Edit: 
+Edit:
 
 ![edit](https://i.ibb.co/M6wZ8Br/chrome-Yucv-Qafq-Kp.png)
 
@@ -76,32 +76,30 @@ Delete:
 
 ---
 
-- As a user I want to get a list of suggested items to bring camping
+- As a user, I want to get a list of suggested items to bring camping
 
-### On page load, items from an array puts out functional items that is pre-filled and represents the essentials for a good camping trip.
-
----
-
-- As a user I want to add items to the list
-
-### Through the text input field at the top in center, the user can write any text to represent a item they wish to bring along. 
+### On page load, items from an array puts out functional items that are pre-filled and represent the essentials for a good camping trip
 
 ---
 
-- As a user I want to edit gear on the list
+- As a user, I want to add items to the list
 
-### On every item on the list there is a edit button, when clicked the user can change and add to or remove any text to suit their needs for representing the item the want to have on their trip.
-
----
-
-- As a user I want to remove gear on the list
-
-### The red "x" button is easy to understand to be a button to remove an item, if it is accidentally clicked (or deliberatly), the user gets a confirm message to help the user keep important items.
+### Through the text input field at the top in the center, the user can write any text to represent an item they wish to bring along
 
 ---
 
-- As a user I want to check off items packed
+- As a user, I want to edit gear on the list
 
-### Every item has a checkbox that is a simple, easy to understand visual cue to know that the item is checked off, packed, done. 
+### On every item on the list there is an edit button, when clicked the user can change and add to or remove any text to suit their needs for representing the item the want to have on their trip
 
 ---
+
+- As a user, I want to remove gear on the list
+
+### The red "x" button is easy to understand to be a button to remove an item, if it is accidentally clicked (or deliberately), the user gets a confirm message to help the user keep important items
+
+---
+
+- As a user, I want to check off items packed
+
+### Every item has a checkbox that is a simple, easy-to-understand visual cue to know that the item is checked off, packed and done
