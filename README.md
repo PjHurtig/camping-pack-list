@@ -45,9 +45,9 @@ The app is live [here](https://pjhurtig.github.io/camping-pack-list/)
 
 I chose a simple colour palette that is easy on the eyes and does not take attention away from the content. The palette was chosen with [mycolor](https://mycolor.space/)
 
-![amiresponsive](https://i.ibb.co/F88mgnp/Code-P8-CElp-MPnc.png)
+![palette](https://i.ibb.co/F88mgnp/Code-P8-CElp-MPnc.png)
 
-Background gradient generated with [cssgradient](https://cssgradient.io/)
+Background gradient generated with [cssgradient](https://cssgradient.io/) using colors from the colour palette above
 
 ### Typography
 
