@@ -216,6 +216,7 @@ This app was deployed through GitHub Pages using the following steps:
 
 ## Code
 
+- Outline for this readme inspired by [AmyOShea's](https://github.com/AmyOShea/MS2-KidzQuiz) KidzQuiz readme
 - Initial code and inspiration from CodeDuck video: [youtube](https://www.youtube.com/watch?v=-pRg_daFjfk)
 - Edit button (content editable) information from: [codepen](https://codepen.io/JoannaEl/pen/ZjaBvr)
 - Submit on "Enter-key" keydown information from: [w3schools](https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp)
