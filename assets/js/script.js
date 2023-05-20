@@ -45,6 +45,7 @@ document.addEventListener("DOMContentLoaded", function () {
         gearText.focus();
         // press enter to "save item" functionality 
         // code from love-maths project(https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode)
+        // and (https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp)
         gearText.addEventListener("keydown", function (event) {
             if (event.key === "Enter") {
                 saveItem(gearText);
@@ -132,6 +133,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // press enter to add item functionality 
     // code from love-maths project(https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode)
+    // and (https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp)
     inputGear.addEventListener("keydown", function (event) {
         if (event.key === "Enter") {
             addNewItem();

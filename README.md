@@ -220,6 +220,7 @@ This app was deployed through GitHub Pages using the following steps:
 - Initial code and inspiration from CodeDuck video: [youtube](https://www.youtube.com/watch?v=-pRg_daFjfk)
 - Edit button (content editable) information from: [codepen](https://codepen.io/JoannaEl/pen/ZjaBvr)
 - Submit on "Enter-key" keydown information from: [w3schools](https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp)
+- Submit on enter key code also from love-maths project(<https://github.com/Code-Institute-Solutions/love-maths-2.0-sourcecode>)
 
 ## Content
 
