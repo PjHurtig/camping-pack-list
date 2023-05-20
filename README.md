@@ -123,7 +123,7 @@ The accessibility score is low because of the checkbox inputs generated do not h
 
 ### Personal Testing
 
-i have tested the app on theese devices available to me with no problems
+i have tested the app successully on theese devices available to me.
 
 #### Phones
 
@@ -150,6 +150,10 @@ Lenovo thinkbook
 
 - Firefox
 - Edge
+
+### Third party testing
+
+I have gotten positive feedback on both usability and aesthetics from friends, family and professionals testing the app on their devices.
 
 # Deployment
 
