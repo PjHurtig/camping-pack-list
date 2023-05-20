@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let userList = document.getElementById("user-list");
     let inputGear = document.getElementById("input-gear");
     const defaultItems = ["Base-layer", "Boots", "Extra socks", "Shelter (tent, hammock, tarp, bivvy)", "Sleeping system (sleeping-bag, quilt)",
-        "Water (1 litre/day)", "Headlight (extra batteries)", "Fire (matches, lighter, steel)", "Knife", "Stove (fuel, windshield",
+        "Water (1 litre/day)", "Headlight (extra batteries)", "Fire (matches, lighter, steel)", "Knife", "Stove (fuel, windshield)",
         "First Aid-kit", "Backpack"];
 
     // checks if user input field is empty and alerts the user to enter a value
