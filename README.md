@@ -121,7 +121,7 @@ The accessibility score is low because of the checkbox inputs generated do not h
 
 ## Other testing
 
-In depth testing of functions and user stories in a separate document [Here]()
+In depth testing of functions and user stories in a separate document [Here](https://github.com/PjHurtig/camping-pack-list/blob/main/assets/TESTING.md)
 
 ### Personal Testing
 
