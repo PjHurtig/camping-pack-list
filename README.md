@@ -85,6 +85,7 @@ I wanted this to be a very simple and easy-to-understand tool for anyone wanting
 - [lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=sv) for checking performance and more
 - [google fonts](https://fonts.google.com/) for the fonts used
 - [imgbb](https://imgbb.com/) for hosting images in this readme
+- [grammarly](https://www.grammarly.com/) for spell-check
 
 ## Languages used
 
