@@ -91,14 +91,12 @@ document.addEventListener("DOMContentLoaded", function () {
         gear.appendChild(saveBtn);
     }
 
-
     // add a checkbox input to check/uncheck item
     function addCheckedInput(gear) {
         const checkBoxInput = document.createElement("input");
         checkBoxInput.type = "checkbox";
         gear.appendChild(checkBoxInput);
     }
-
 
     // adds item div and paragraph with gear item text
     function updateItemList(newItem) {
@@ -143,10 +141,5 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // adds list of defaultitems
     addDefaultItems();
-
-
-
-
-
 
 });
