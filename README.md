@@ -179,7 +179,7 @@ With help from the kind tutor Kevin i got help to understand how they needed to 
 
 In early code i wanted to do something similar and had another bug, at that point i tried to do everything inside the same eventlistener that created both of the buttons, this resulted in invisible "done"-buttons being created every time the edit button was pressed.
 
-This was only noticed in dev tools element view as the code seemed to work on the surface, the solution that i used then was to remove the button and create it every time so it did not stack in the code. Thankfully as i learned more about functions and the importance of refactoring code, i came up with a much better solution.
+This was only noticed in dev tools element view as the code seemed to work on the surface, the solution that i used then was to remove the button and create it every time so it did not stack in the code. Thankfully as i learned more about functions and the importance of refactoring code, i came up with a much better solution (not without its own complications though!).
 
 # Deployment
 
@@ -209,7 +209,6 @@ This app was deployed through GitHub Pages using the following steps:
 - $ git clone <https://github.com/PjHurtig/camping-pack-list.git>
   
 9. Press Enter to create your local clone.
-
 
 # Credits
 
