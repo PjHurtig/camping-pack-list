@@ -155,6 +155,14 @@ Lenovo thinkbook
 
 ## Deployment through GitHub Pages
 
+- Log into GitHub
+- Locate the repository.
+- Locate the settings option along the options bar.
+- Locate GitHub Pages options towards the bottom of the page.
+- In 'Source' dropdown, select 'Master' from the branch options.
+- Click the save button.
+- The site is now published though it may not be accessible straight away.
+
 ## Forking the Repository
 
 ## Making a Local Clone
