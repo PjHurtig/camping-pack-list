@@ -7,6 +7,14 @@ The app is live [here](https://pjhurtig.github.io/camping-pack-list/)
 
 ![amiresponsive](https://i.ibb.co/fvJndY0/chrome-Qkz8-Gkhg1n.png)
 
+# Target Audience
+
+The target audience is a user who wants to go on a camping trip and wishes to have a clear overview of what they need and want to bring
+
+# Key project goals
+
+The goal is to provide a tool that the target audience finds useful and easy to use, that solves a problem for the target audience
+
 # Features
 
 ## Current Features
