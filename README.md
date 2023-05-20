@@ -155,6 +155,32 @@ Lenovo thinkbook
 
 I have gotten positive feedback on both usability and aesthetics from friends, family and professionals testing the app on their devices.
 
+# Bugs and solutions
+
+## Hide/Show edit/done button
+
+I made a function to hide the edit putton when pressed and show the "done"-button instead, and vice versa. This worked very well untill i called the function from the eventlistener that made the text uneditable by keydown of "enter-key".
+
+So even if the editing was "done" the button did not revert to "edit" as can be seen in "sleeping system" item below it is not editable (as the water item) but button has not changed.
+
+![editbutton does not show](https://i.ibb.co/VwHB5t9/hidebutton-event.png)
+
+i got this error mesage in dev tools console:
+
+![hidesavebutton](https://i.ibb.co/xXbzxsc/chrome-Yk23q-HMi9x.png)
+
+Solution: though i had connected the funtions related to the rows in the error message with parameters, there was an other eventlistener that needed to be connected for it all to work.
+
+With help from the kind tutor Kevin i got help to understand how they needed to be connected and why.
+
+![initial edit button eventlistener](https://i.ibb.co/K9SpJ6y/chrome-ccdp-Rq-G38-E.png)
+
+## Early code bug
+
+In early code i wanted to do something similar and had another bug, at that point i tried to do everything inside the same eventlistener that created both of the buttons, this resulted in invisible "done"-buttons being created every time the edit button was pressed.
+
+This was only noticed in dev tools element view as the code seemed to work on the surface, the solution that i used then was to remove the button and create it every time so it did not stack in the code. Thankfully as i learned more about functions and the importance of refactoring code, i came up with a much better solution.
+
 # Deployment
 
 ## Deployment through GitHub Pages
@@ -200,7 +226,3 @@ All text content made by Jonatan Hurtig (thats me, the author of this project)
 ## Media
 
 Image at the top is from Guillaume Gouin on [unsplash](https://unsplash.com/photos/68YXvKCobKI)
-
-# Bugs
-
-Bugs
