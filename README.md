@@ -81,14 +81,14 @@ I wanted this to be a very simple and easy to understand tool for anyone wanting
 - [w3 html vaildator](https://validator.w3.org/) for validating HTML file
 - [jshint](https://jshint.com/) for testing javascript file
 - [lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=sv) for checking performance and more
+- [google fonts](https://fonts.google.com/) for the fonts used
+- [imgbb](https://imgbb.com/) for hosting images in this readme
 
 ## Languages used
 
 - [HTML](https://en.wikipedia.org/wiki/HTML)
 - [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 - [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
-
-## Programmes and other tools
 
 # Testing
 
@@ -168,8 +168,6 @@ This app was deployed through GitHub Pages using the following steps:
 5. In 'Source' dropdown, select 'Master' from the branch options.
 6. Click the save button.
 7. After a while the link is available.
-
-## Forking the Repository
 
 ## Making a Local Clone
 
