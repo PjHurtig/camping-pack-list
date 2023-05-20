@@ -99,7 +99,7 @@ Throughout development i have contiously used theese validator services to test 
 - [w3 css vaildator](https://jigsaw.w3.org/css-validator/) for validating the css file
 - [w3 html vaildator](https://validator.w3.org/) for validating HTML file
 - [jshint](https://jshint.com/) for testing javascript file
-- [lighthouse](https://chrome.google.com/webstore/detail/lighthouse/) for checking performance and more
+- [lighthouse](https://chrome.google.com/webstore/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk?hl=sv) for checking performance and more
 
 CSS
 
