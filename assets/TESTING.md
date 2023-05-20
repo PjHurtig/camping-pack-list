@@ -36,7 +36,7 @@ Pressing edit button focuses on the text in the item again
 
 ![edit button](https://i.ibb.co/Mpc3495/chrome-AZy-Fs-TBg4-F.png)
 
-Then pressing enterchanges the button back to "edit" and makes the text uneditable.
+Then pressing enter changes the button back to "edit" and makes the text uneditable.
 
 ![](https://i.ibb.co/chxGMmc/chrome-Eg-Izg-Qf7-L6.png)
 
@@ -69,5 +69,39 @@ Check:
 Delete:
 
 ![delete](https://i.ibb.co/7XL2Cv8/chrome-oh-KX5y-Iom-D.png)
+
+---
+
+## Testing the User Stories
+
+---
+
+- As a user I want to get a list of suggested items to bring camping
+
+### On page load, items from an array puts out functional items that is pre-filled and represents the essentials for a good camping trip.
+
+---
+
+- As a user I want to add items to the list
+
+### Through the text input field at the top in center, the user can write any text to represent a item they wish to bring along. 
+
+---
+
+- As a user I want to edit gear on the list
+
+### On every item on the list there is a edit button, when clicked the user can change and add to or remove any text to suit their needs for representing the item the want to have on their trip.
+
+---
+
+- As a user I want to remove gear on the list
+
+### The red "x" button is easy to understand to be a button to remove an item, if it is accidentally clicked (or deliberatly), the user gets a confirm message to help the user keep important items.
+
+---
+
+- As a user I want to check off items packed
+
+### Every item has a checkbox that is a simple, easy to understand visual cue to know that the item is checked off, packed, done. 
 
 ---
