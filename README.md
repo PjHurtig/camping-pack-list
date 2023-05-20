@@ -163,7 +163,7 @@ I have gotten positive feedback on both usability and aesthetics from friends, f
 
 I made a function to hide the edit putton when pressed and show the "done"-button instead, and vice versa. This worked very well untill i called the function from the eventlistener that made the text uneditable by keydown of "enter-key".
 
-So even if the editing was "done" the button did not revert to "edit" as can be seen in "sleeping system" item below it is not editable (as the water item) but button has not changed.
+So even if the editing was "done" the button did not revert to "edit" as can be seen in "sleeping system" item below it is not editable (as the water item is) but the button has not changed.
 
 ![editbutton does not show](https://i.ibb.co/VwHB5t9/hidebutton-event.png)
 
